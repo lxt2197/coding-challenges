@@ -1,4 +1,9 @@
-=LET(inp, B3:B12,
+**EVERYBODY CODES**  
+**Story 4 - Day 1**
+
+Part 1
+```
+=LET(inp, A1:A10,
      end, LAMBDA(seq,
                  TAKE(REDUCE(0,--TEXTSPLIT(seq,","),
                              LAMBDA(pth,stp,
@@ -9,3 +14,14 @@
                                                   prv-stp))))),
                  -1)),
      SUM(MAP(inp,end)))
+```
+
+Part 2
+```
+
+```
+
+Part 3
+```
+
+```
